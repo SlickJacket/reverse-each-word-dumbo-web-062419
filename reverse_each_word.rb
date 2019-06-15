@@ -12,4 +12,5 @@ def reverse-each-word(string)
   array.collect do|string|
     string.reverse
   end
+  return array.join(" ")
 end
