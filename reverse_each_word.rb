@@ -13,5 +13,5 @@ def reverse-each-word(string)
     array2 << string.reverse
 
   end
-  return array.join(" ")
+  return array2.join(" ")
 end
