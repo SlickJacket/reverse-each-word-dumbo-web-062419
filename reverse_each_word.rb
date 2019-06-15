@@ -4,3 +4,4 @@ def reverse_each_word(string)
   array.each do|string|
   array2 << n.reverse
 end
+end
