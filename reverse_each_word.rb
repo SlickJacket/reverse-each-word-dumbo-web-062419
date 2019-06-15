@@ -9,6 +9,7 @@ end
 
 def reverse-each-word(string)
   array = string.split(" ")
+  array2 = []
   array.collect do|string|
     array2 << string.reverse
 
